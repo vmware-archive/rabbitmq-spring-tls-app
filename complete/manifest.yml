@@ -1,0 +1,7 @@
+---
+applications:
+- name: my-rmq-app
+  instances: 1
+  path: target/gs-messaging-rabbitmq-0.1.0.jar
+  services:
+  - myrmq
